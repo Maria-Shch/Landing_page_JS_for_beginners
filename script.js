@@ -695,6 +695,9 @@ function start(){
     if(isNaN(time)){ //Валидация
       count.innerHTML = "Проверьте ввод";
     }
+    else if(time < 0){ //Валидация
+      count.innerHTML = "Проверьте ввод";
+    }
     else{
       function updateCountDown(){
 
