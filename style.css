@@ -387,7 +387,7 @@ dialog{
 }
 #super-div{
 	background-color: #c9a8ff;
-	background: url(back.jpg) ;
+	background: url(img/back.jpg) ;
 	background-size: cover;
 	position: fixed;
   	top: 0;
