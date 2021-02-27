@@ -306,10 +306,10 @@
 					</div>
 					<div class="d-timer">
 						<div class="fieldest__d-2-Stopwatch-buttons2">
-							<input id = "start1" type = "button" value = "Старт"></input>
-							<input id = "stop1" type = "button" value = "Стоп"></input>
-							<input id = "reset1" type = "button" value = "Сброс"></input>
-							<input id = "timePassed1" type = "button" value = "Прошло времени"></input>
+							<input id = "startTimer" type = "button" value = "Старт"></input>
+							<input id = "stopTimer" type = "button" value = "Стоп"></input>
+							<input id = "resetTimer" type = "button" value = "Сброс"></input>
+							<input id = "timePassedTimer" type = "button" value = "Прошло времени"></input>
 						</div>
 						<div class ="fieldest__d-2" id = "divTimePassed">
 							<p class = "p-timer" id = "timePassed" >00 : 00 : 00</p>
@@ -392,8 +392,8 @@
 				</dialog>
 			</fieldset>
 			
-			<!--
-			<fieldset class = "container-main__fieldest"> 
+			
+			<fieldset class = "container-main__fieldest"> <!-- Секундомер-->
 				<legend class = "legend-title">Секундомер</legend>
 				<div class = "fieldest__d-1">
 					<div class ="fieldest__d-2">
@@ -454,7 +454,7 @@
 					<p class="text-code">pMax.textContent = "Max: " + Math.max.apply(null, arr)</p>
 					<input type = "button" id = "buttonStopwatchClose" value = "Понятно"></input>
 				</dialog>
-			</fieldset>-->
+			</fieldset>
 
 			<fieldset class = "container-main__fieldest"> <!--Тест-->
 				<legend class = "legend-title"><a name="Тест"></a>Пройдите тест</legend>
@@ -678,7 +678,7 @@
 				</dialog>
 			</fieldset>
 			
-			<fieldset class = "container-main__fieldest"><!--Чудо-кнопка-->
+			<fieldset class = "container-main__fieldest"><!--Кнопка с экраном приветствия-->
 				<legend class = "legend-title"><a name="Кнопка"></a>Чудо-кнопка</legend>
 				<div id="super-div" onclick="visibilityFunction()">
 					
@@ -764,9 +764,16 @@
 			<img class="img-network"  src="https://image.flaticon.com/icons/svg/2165/2165061.svg" alt="logo mail">
 		</div>
 		<div class="div-footer">
-			<p>Copyright 2020. All rights reserved. </p>
+			<p>Copyright 2021. All rights reserved. </p>
 		</div>
 	</footer>
-	<script src = "script.js"></script>
+	<script src = "scripts/input_name.js"></script>
+	<script src = "scripts/area_of_triangle.js"></script>
+	<script src = "scripts/strings_compare.js"></script>
+	<script src = "scripts/arr_min_max.js"></script>
+	<script src = "scripts/timer.js"></script>
+	<script src = "scripts/stopwatch.js"></script>
+	<script src = "scripts/test.js"></script>
+	<script src = "scripts/welcome_screen.js"></script>
 </body> 
 </html>
