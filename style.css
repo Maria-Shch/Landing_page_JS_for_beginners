@@ -1,10 +1,10 @@
- /*-*/body{
+ body{
 	margin: 0px;
     background-color: #252525;
     font: 30px Graphik,sans-serif;
 }
 /*---------------------*/
-.menu{/*-*/
+.menu{
 	background-color: #582494;
     padding: 10px;
     padding-left: 9%;
@@ -15,13 +15,13 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.menu__item a{ /*-*/
+.menu__item a{ 
 	color:#ffffff;
 	font: 30px Graphik,sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 }
-.menu__item a:hover{ /*-*/
+.menu__item a:hover{ 
   text-align: center;
   line-height: 1;
   color: #eccbff;
@@ -45,24 +45,24 @@
 	}
   }
   
-.menu__item{ /*-*/
+.menu__item{ 
     padding: 10px;
-	width: 50%;
+	width: 65%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 }
-#div-as-hr{ /*-*/
+#div-as-hr{ 
 	height: 30px;
     width: 1px;
 	background-color: #e4bbff;
 } 
-#user-name{/*-*/
-    width: 40%;
+#user-name{
+    width: 30%;
 }
-.p-name-user{/*-*/
+.p-name-user{
     color: #f2ff2c;
     margin: 0px;
     font-size: 30px;
@@ -72,10 +72,10 @@
 
 /*end header*/
 /*main*/
-main{ /*-*/
+main{ 
 	padding-top: 20px;
 }
-.container-main{ /*-*/
+.container-main{ 
 	margin: auto;
 	width: 80%;
 	display: flex;
@@ -84,7 +84,7 @@ main{ /*-*/
 	justify-content: center;
 	align-items: center;
 }
-.container-main__row{ /*-*/
+.container-main__row{ 
 	height: 200px;
 	width: 100%;
 	display: flex;
@@ -99,7 +99,7 @@ main{ /*-*/
 	box-shadow: 7px 9px 13px -9px rgba(0, 0, 0, 0.58);
 	margin-bottom: 30px;
 }
-input[type=text]{ /*-*/
+input[type=text]{ 
 	margin-bottom: 5px;
     color: #FFFFFF;
     font-size: 18px;
@@ -114,14 +114,14 @@ input[type=text]{ /*-*/
     position: relative;
     transition: .3s linear;
 }
-#inputName:focus { /*-*/
+#inputName:focus { 
     width: 250px;
 }
 
-input[type=text]:focus { /*-*/
+input[type=text]:focus { 
     width: 200px;
 }
-input[type=button]{ /*-*/
+input[type=button]{ 
     color: #291549;
 	font-size: 18px;
     font-weight: bold;
@@ -134,27 +134,27 @@ input[type=button]{ /*-*/
     transition: 0.2s;
 	border-color: #d1f21e;
 }
-input[type=button]:hover{ /*-*/
+input[type=button]:hover{ 
     background:  #d89df0;
 	-webkit-box-shadow: 7px 9px 13px -9px rgba(0, 0, 0, 0.58);
 	-moz-box-shadow: 7px 9px 13px -9px rgba(0, 0, 0, 0.58);
 	box-shadow: 7px 9px 13px -9px rgba(0, 0, 0, 0.58);
 	border-color: #9f59bc;
 }
-input[type=button]:active{ /*-*/
+input[type=button]:active{ 
     background:  #e198ffab;
 	-webkit-box-shadow: 7px 9px 13px -9px rgba(0, 0, 0, 0.58);
 	-moz-box-shadow: 7px 9px 13px -9px rgba(0, 0, 0, 0.58);
 	box-shadow: 7px 9px 13px -9px rgba(0, 0, 0, 0.58);
 	border-color: #9f59bc;
 }
-.legend-title{/*-*/
+.legend-title{
 	margin: 0 auto;
     color: #f3d6ff;
     font-size: 35px;
     font-weight: bold;
 }
-.container-main__row__fieldest{ /*-*/
+.container-main__row__fieldest{ 
 	border-radius: 30px;
     background-color: #5824946b;
     width: 70%;
@@ -164,7 +164,7 @@ input[type=button]:active{ /*-*/
 	box-shadow: 7px 9px 13px -9px rgba(0, 0, 0, 0.58);
 }
 
-.container-input-name{ /*-*/
+.container-input-name{ 
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -199,6 +199,31 @@ input[type=button]:active{ /*-*/
 	align-items:center;
 	align-content: center;
 }
+.fieldest__d-1_Strings{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items:center;
+	align-content: center;
+
+}
+.fieldest__d-1_Strings-2{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items:center;
+	align-content: center;
+}
 .fieldest__d-2{
 	width: 36%;
 	display: flex;
@@ -208,8 +233,8 @@ input[type=button]:active{ /*-*/
 	align-items:center;
 	align-content: center;
 }
-.fieldest__d-2-res{
-	width: 25%;
+.fieldest__d-2-resMaxLength{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -259,7 +284,7 @@ input[type=button]:active{ /*-*/
 .res{
 	margin: 0 auto;
     color: #f17cfff2;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
 }
 .res-error{
@@ -460,6 +485,19 @@ img{
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
+	align-items:center;
+	align-content: center;
+}
+
+.divImgDog{
+	max-width: 500px;
+	max-height: 400px;
+}
+#div-img-dog{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
 	align-items:center;
 	align-content: center;
 }

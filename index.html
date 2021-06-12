@@ -14,7 +14,11 @@
 				<div id = "div-as-hr"></div>
 				<a href = "#Тест">Пройти тест</a>
 				<div id = "div-as-hr"></div>
-				<a href = "#Кнопка">Чудо-кнопка</a>  
+			<!--<a href = "#Кнопка">Чудо-кнопка</a>  
+				<div id = "div-as-hr"></div>-->
+				<a href = "#Задачи2">Новые задачи</a>  
+				<div id = "div-as-hr"></div>
+				<a href = "#Собаки">Собачье API</a>
 			</div>
             <div id = "user-name">
                 <!--Сюда добавляется имя из LocalStorage-->
@@ -678,6 +682,68 @@
 				</dialog>
 			</fieldset>
 			
+			<fieldset class = "container-main__fieldest"><!-- Самая длинная строка из массива -->
+				<legend class = "legend-title"><a name="Задачи2"></a>Самая длинная строка</legend>
+				<div class = "fieldest__d-3">
+					<div class="fieldest__d-1_Strings">
+						<input id = "inputStringArray" placeholder = "Введите строку.." type = "text">
+						<input type = "button" id = "buttonAddString" value = "Добавить строку">
+						<input type = "button" id = "buttonDeleteString" value = "Удалить строку">
+						<input type = "button" id = "buttonMaxLength" value = "Результат">
+					</div>
+					<div class="fieldest__d-2-resMaxLength" id="fieldest__d-2-strings">
+						<!--Сюда добавляются строки -->
+					</div>
+					<div class="fieldest__d-2-resMaxLength" id="fieldest__d-2-resMaxLength">
+						<!--Сюда добавляется результат -->
+					</div>
+				</div>
+			</fieldset>
+
+			<fieldset class = "container-main__fieldest"><!-- Самый часто встречающийся символ в строке -->
+				<legend class = "legend-title">Самый частовстречающийся символ</legend>
+				<div class = "fieldest__d-3">
+					<div class="fieldest__d-1_Strings-2">
+						<input id = "inputString" placeholder = "Введите строку.." type = "text">
+						<input type = "button" id = "buttonRepeatRes" value = "Результат">
+					</div>
+					<div class="fieldest__d-2-resMaxLength" id="fieldest__d-2-stringRep">
+						<!--Сюда добавляется строка -->
+					</div>
+					<div class="fieldest__d-2-resMaxLength" id="fieldest__d-2-resStringRep">
+						<!--Сюда добавляется результат -->
+					</div>
+				</div>
+			</fieldset>
+
+			<fieldset class = "container-main__fieldest"><!-- Заменить символ в строке -->
+				<legend class = "legend-title">Замена символа</legend>
+				<div class = "fieldest__d-3">
+					<div class="fieldest__d-1_Strings-2">
+						<input id = "inputStringSecond" placeholder = "Введите строку.." type = "text">
+						<input id = "inputChar" placeholder = "Введите символ.." type = "text">
+						<input type = "button" id = "buttonReplaceRes" value = "Результат">
+					</div>
+					<div class="fieldest__d-2-resMaxLength" id="fieldest__d-2-stringReplace">
+						<!--Сюда добавляется всё -->
+					</div>
+				</div>
+			</fieldset>
+
+			<fieldset class = "container-main__fieldest"><!-- Анаграмма -->
+				<legend class = "legend-title">Анаграмма</legend>
+				<div class = "fieldest__d-3">
+					<div class="fieldest__d-1_Strings-2">
+						<input id = "inputAnagram1" placeholder = "Введите строку.." type = "text">
+						<input id = "inputAnagram2" placeholder = "Введите строку.." type = "text">
+						<input type = "button" id = "buttonAnagram" value = "Результат">
+					</div>
+					<div class="fieldest__d-2-resMaxLength" id="fieldest__d-2-stringAnagram">
+						<!--Сюда добавляется резултат -->
+					</div>
+				</div>
+			</fieldset>
+
 			<fieldset class = "container-main__fieldest"><!--Кнопка с экраном приветствия-->
 				<legend class = "legend-title"><a name="Кнопка"></a>Чудо-кнопка</legend>
 				<div id="super-div" onclick="visibilityFunction()">
@@ -748,6 +814,15 @@
 					<input type = "button" id = "buttonInvisibleClose" value = "Понятно"></input>
 				</dialog>
 			</fieldset>
+
+			<fieldset class = "container-main__fieldest"><!--Кнопка для получения фотки собаки со стороннего API-->
+				<legend class = "legend-title"><a name="Собаки"></a>Собачье API</legend>
+				<div class="div-super-button">
+					<input type = "button" id = "buttonShowDog" value = "Хочу фото собаки"></input>
+				</div>
+				<div class="" id="div-img-dog">
+				</div>
+			</fieldset>
 		</div>
 	</main>
 	<footer>
@@ -775,5 +850,10 @@
 	<script src = "scripts/stopwatch.js"></script>
 	<script src = "scripts/test.js"></script>
 	<script src = "scripts/welcome_screen.js"></script>
+	<script src = "scripts/Max length string from arr.js"></script>
+	<script src = "scripts/most common symbol.js"></script>
+	<script src = "scripts/symbol replacement.js"></script>
+	<script src = "scripts/anagram.js"></script>
+	<script src = "scripts/dogsAPI.js"></script>
 </body> 
 </html>
